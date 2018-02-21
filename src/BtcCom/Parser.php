@@ -21,7 +21,6 @@ final class Parser {
             $stat = new Stat();
             $stat->transactionFee = $this->toText($children->eq(1));
             $stat->feeDistribution = $this->extractFeeDistribution($children->eq(2));
-            $stat->isOptimal = false;
 
             return $stat;
         });
