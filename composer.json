@@ -1,0 +1,20 @@
+{
+    "name": "kirillrogovoy/btccom-rate-parser",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Kirill Rogovoy",
+            "email": "kirill@rogovoy.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/dom-crawler": "^3.4",
+        "symfony/css-selector": "^3.4"
+    }
+}
