@@ -3,7 +3,7 @@ final class OptimalFee {
     public $stat;
     public $percentIndex;
 
-    public function __construct(Stat $stat, $percentIndex) {
+    public function __construct(\BtcCom\Stat $stat, $percentIndex) {
         $this->stat = $stat;
         $this->percentIndex = $percentIndex;
     }
